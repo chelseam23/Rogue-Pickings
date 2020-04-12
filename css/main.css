@@ -1,0 +1,177 @@
+/***** BASE STYLES *****/
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    src: url('../fonts/wisdom-script-regular.otf') format('opentype');
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #77a466, #000000
+}
+
+
+/***** CONTAINER *****/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*****HEADER *****/
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+}
+
+header h1 span {
+    color: #77a466
+}
+
+header nav {
+    padding: 46px 0;
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+    padding: 15px 20px 0px 0px;
+}
+
+
+/***** MAIN *****/
+.top-section, .bottom-section {
+    margin: 0 auto;
+    clear: both;
+}
+
+.main-image {
+    height: auto;
+    padding: 0;
+}
+
+.main-image img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+.main-title h2 {
+    font-size: 18px;
+    color: #77a466;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 20px 0px 0px 0px;
+}
+
+.main-title p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 18px 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+
+/***** SECTIONS *****/
+.bottom-section {
+    border-top: 1px solid #eee;
+}
+.section-one, .section-two, .section-three {
+    float: left;
+    width: 399px;
+    height: auto;
+}
+.section-one h3, .section-two h3, .section-three h3 {
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-one h3 {
+    padding: 20px 0px 10px 0px;
+}
+
+.section-two h3, .section-three h3 {
+    padding: 20px 0px 10px 30px;
+}
+
+.menu {
+    padding: 0px 30px 50px 0px;
+}
+
+.menu li {
+    font-size: 16px;
+    color: #77a466;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 0px 10px 0px;
+}
+
+.section-two {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.section-two p, .section-three p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.section-two p {
+    line-height: 21px;
+    padding: 0px 40px 10px 30px;
+}
+
+.section-three p {
+    line-height: 24px;
+    padding: 0px 0px 10px 30px;
+}
+
+
+
+/***** FOOTER *****/
+
+footer {
+    height: 50px;
+    border-top: 1px solid #eee;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 0px 0px 0px;
+}
+
+footer span {
+    font-family: 'Wisdom Script Regular';
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 14px;
+    font-weight: normal;
+}
